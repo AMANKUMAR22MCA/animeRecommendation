@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to right, #232526, #414345);
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background: #2d3436;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: #636e72;
+  color: rgb(232, 223, 223);
+}
+
+/* Placeholder text styling (for all modern browsers) */
+.auth-container input::placeholder {
+  color: #dfe6e9;       /* light gray */
+  opacity: 1;           /* fully visible */
+  font-weight: bold;    /* make text bold */
+  font-size: 0.6 rem;      /* optional: increase size slightly */
+}
+
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.auth-container button:hover {
+  background: #ff4757;
+}
+
+.auth-container p {
+  margin-top: 15px;
+}
+
+.auth-container a {
+  color: #00cec9;
+  text-decoration: none;
+}
+
+.error {
+  margin-top: 10px;
+  color: #fab1a0;
+}

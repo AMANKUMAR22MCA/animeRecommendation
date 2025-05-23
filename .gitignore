@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+*.db
+db.sqlite3
+/media
+/staticfiles
+/static/
+.env
+.env.*
+local_settings.py
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.bak
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn
+gunicorn.pid
+
+# Logs
+*.log
+
+# node
+node_modules/
+
+# JetBrains
+*.iml
+.idea/
+
+# Backup files
+*~
+*.bak
+*.swp

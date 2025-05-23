@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: anime-postgres-container
+    environment:
+      POSTGRES_USER: anime_user
+      POSTGRES_PASSWORD: anime_pass_123
+      POSTGRES_DB: anime_db
+    ports:
+      - "5441:5432"
+
+  backend:
+    build: ./backend
+    container_name: anime-backend-container
+    ports:
+      - "8001:8000"
+    environment:
+      - DJANGO_ALLOWED_HOSTS=localhost,backend,host.docker.internal,34.100.160.93
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=anime_db
+      - DB_USER=anime_user
+      - DB_PASSWORD=anime_pass_123
+    depends_on:
+      - db
+    command: >
+      sh -c "
+        python manage.py collectstatic --noinput &&
+        python manage.py makemigrations anime &&
+        python manage.py migrate &&
+        python manage.py runserver 0.0.0.0:8000
+      "
+    volumes:
+      - ./backend/staticfiles:/app/staticfiles  
+
+  frontend:
+    build: ./frontend
+    container_name: anime-frontend-container
+    ports:
+      - "5501:80"
