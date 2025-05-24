@@ -51,11 +51,11 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
             'PASSWORD': 'anime_pass_123',
             'HOST': 'db',
             'PORT': '5432',
-        }
+        } 
     }
     ```
 
-> 🔐 _Note: Change the above database credentials in production._
+> 🔐 _Note: Change the above database credentials in production._ <br>
 > open browser and visit [http://localhost:5501/](http://localhost:5501/)
 ---
 
