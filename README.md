@@ -13,7 +13,13 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 <br>
 ![image](https://github.com/user-attachments/assets/c57551f6-f410-47af-98c9-f0c984e531aa)
 <br>
-![image](https://github.com/user-attachments/assets/12f51d18-dd4e-41c1-8b2c-51dfa4f8e743)
+![image](https://github.com/user-attachments/assets/130aa991-0f26-49e1-834c-bbac39219b67)
+<br>
+<br>
+### To get recommendation Set Your Favorite Genres click over the check box and click save
+![image](https://github.com/user-attachments/assets/359d9bb8-aa17-4b30-ba66-d82437f831c2)
+
+
 
 ## ✨ Features
 
