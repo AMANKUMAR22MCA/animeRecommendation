@@ -10,9 +10,10 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 ## 📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/98977004-ba5f-4e27-896f-147ac69abcb7)
-
-![Dashboard](screenshots/dashboard.png)
-![Recommendations](screenshots/recommendations.png)
+<br>
+![image](https://github.com/user-attachments/assets/c57551f6-f410-47af-98c9-f0c984e531aa)
+<br>
+![image](https://github.com/user-attachments/assets/12f51d18-dd4e-41c1-8b2c-51dfa4f8e743)
 
 ## ✨ Features
 
@@ -50,7 +51,7 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 4. **Run Migrations & Start Server**
 
     ```bash
-    python manage.py makemigrations
+    python manage.py makemigrations anime
     python manage.py migrate
     python manage.py runserver
     ```
@@ -91,7 +92,7 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 
 ## 🗃️ Tech Stack
 
-- **Frontend**: HTML/CSS + JS (or React if added later)
+- **Frontend**: HTML/CSS + JS 
 - **Backend**: Django + Django REST Framework
 - **Database**: PostgreSQL / MySQL (Optional)
 - **Authentication**: JWT
@@ -101,7 +102,7 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 
 ## 🧠 Credits
 
-Project created by Bobby 🚀
+Project created by Aman Kumar 🚀
 
 ---
 
