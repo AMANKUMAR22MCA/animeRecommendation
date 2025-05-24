@@ -133,7 +133,7 @@ DATABASES = {
         'NAME': 'anime_db',          # New database name
         'USER': 'anime_user',        # New username
         'PASSWORD': 'anime_pass_123',# New password
-        'HOST': '34.100.160.93',                # Docker service name for PostgreSQL container
+        'HOST': 'db',                # Docker service name for PostgreSQL container
         'PORT': '5432',              # Container internal port (always 5432 for Postgres)
     }
 }
