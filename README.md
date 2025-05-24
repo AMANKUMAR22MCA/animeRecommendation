@@ -19,6 +19,7 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 
 - 🔐 User Registration & Login with JWT Authentication
 - 🧠 Personalized Anime Recommendations
+- 🎯 **GraphQL API**: Uses AniList GraphQL API for fetching anime data.
 - 🔍 Search Anime by Title
 - 🎨 Filter Anime by Genre
 - 📦 Deployed using Docker & Google Cloud
