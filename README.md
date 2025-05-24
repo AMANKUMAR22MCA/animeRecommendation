@@ -37,8 +37,8 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your-username/anime-recommendation-app.git
-    cd anime-recommendation-app
+    git clone https://github.com/AMANKUMAR22MCA/animeRecommendation.git
+    cd animeRecommendation
     ```
 
 2. **Create Virtual Environment & Activate**
