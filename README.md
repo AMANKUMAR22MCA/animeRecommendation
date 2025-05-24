@@ -9,7 +9,8 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 
 ## 📸 Screenshots
 
-![Login Page](![image]https://github.com/user-attachments/assets/0600703e-bdef-40c4-a52c-b2ecba6e3620)
+![image](https://github.com/user-attachments/assets/98977004-ba5f-4e27-896f-147ac69abcb7)
+
 ![Dashboard](screenshots/dashboard.png)
 ![Recommendations](screenshots/recommendations.png)
 
