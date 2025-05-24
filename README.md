@@ -56,7 +56,7 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
     ```
 
 > 🔐 _Note: Change the above database credentials in production._
-
+> open browser and visit [http://localhost:5501/](http://localhost:5501/)
 ---
 
   
