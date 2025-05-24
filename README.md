@@ -32,6 +32,37 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 
 ---
 
+## 🐳 Docker Setup (Recommended)
+
+1. **Run with Docker Compose**
+
+    ```bash
+    docker-compose up -d
+    ```
+
+2. **Database Settings for PostgreSQL in Docker**
+
+    ```python
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'anime_db',
+            'USER': 'anime_user',
+            'PASSWORD': 'anime_pass_123',
+            'HOST': 'db',
+            'PORT': '5432',
+        }
+    }
+    ```
+
+> 🔐 _Note: Change the above database credentials in production._
+
+---
+
+  
+
+---
+
 ## 🖥️ Local Development Setup (Without Docker)
 
 1. **Clone the Repository**
@@ -68,34 +99,6 @@ Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login
 ```
 5. Open browser and visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
----
-
-## 🐳 Docker Setup (Recommended)
-
-1. **Run with Docker Compose**
-
-    ```bash
-    docker-compose up -d
-    ```
-
-2. **Database Settings for PostgreSQL in Docker**
-
-    ```python
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'anime_db',
-            'USER': 'anime_user',
-            'PASSWORD': 'anime_pass_123',
-            'HOST': 'db',
-            'PORT': '5432',
-        }
-    }
-    ```
-
-> 🔐 _Note: Change the above database credentials in production._
-
----
 
 ## 🗃️ Tech Stack
 
