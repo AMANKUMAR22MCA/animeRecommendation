@@ -3,9 +3,6 @@
 
 A full-stack anime recommendation web app with JWT-based authentication, anime search, genre filtering, and personalized recommendations.
 
-## 🌐 Live Demo
-
-Hosted on **Google Cloud Platform**: [View Demo](http://34.100.160.93:5501/login.html)
 
 ## 📸 Screenshots
 
